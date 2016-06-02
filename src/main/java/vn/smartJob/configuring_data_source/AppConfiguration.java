@@ -12,7 +12,7 @@ public class AppConfiguration {
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/vy");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/ten_csdl");
         dataSource.setUsername("root");
         dataSource.setPassword("1234");
         return dataSource;
